@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+h1.hello {
+    margin-top: 20px;
+    color: #F4E869;
+}
+
+h1.name {
+    color: #3085C3;
+    justify-content: center;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #5CD2E6;
+    font-weight: 100;
+}
+
