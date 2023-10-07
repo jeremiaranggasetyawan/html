@@ -2,11 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Young Serif', serif;
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {
     display: block;
     border-radius: 50%;
+    border : 5px solid #3085C3;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
