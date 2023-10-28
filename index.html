@@ -13,8 +13,30 @@
     <div>
         <img src="foto.jpg" alt="">
         <h1 class="hello">Hello,</h1>
-        <a href="https://codepen.io/your-work/"><h1 class="name">Jeremia Rangga Setyawan</h1></a>
+        <a href="https://codepen.io/Jeremia-Rangga" target="_blank"><h1 class="name">Jeremia Rangga Setyawan</h1></a>
         <h2><i>Front End Division</i></h2>
+
+        <div class="data">
+            <button onclick="clicks()">Social Media</button>
+            <div id="socmed" style="display: none;">
+                <p><a href="https://www.instagram.com/jeremiarng/" target="_blank">Instagram</a></p>
+                <p><a href="https://www.youtube.com/channel/UC3ujAD90La1qCluoWUxEwug" target="_blank">Youtube</a></p>
+            </div>
+        </div>
+        
+        
     </div>
+<script>
+    function clicks(){
+        let element_socmed = document.getElementById("socmed");
+
+        if (element_socmed.style.display == "none") {
+            element_socmed.style.display = "block";
+        } else {
+            element_socmed.style.display = "none";
+        }
+
+    }
+</script>
 </body>
 </html>
